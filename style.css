@@ -1,0 +1,14 @@
+.logo{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-name{
+    font-family: "Bebas Neue", serif;
+    font-size: 100px;
+}
+.middle-name{
+   font-family: "Rock 3D", serif;
+   margin: 0;
