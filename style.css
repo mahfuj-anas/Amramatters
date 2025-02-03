@@ -1,3 +1,4 @@
+/* logo */
 .logo{
     font-size: 50px;
     display: flex;
@@ -10,5 +11,60 @@
     font-size: 100px;
 }
 .middle-name{
-   font-family: "Rock 3D", serif;
+    font-family: "Rock 3D", serif;
    margin: 0;
+}
+   
+   
+   /* nav link */
+   .nav-items{
+    list-style: none;
+    font-family: "Bebas Neue", serif;
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+   }
+
+   .nav-items > li:hover{
+text-decoration: underline;
+cursor: pointer;
+   }
+
+   .nav-items > li > button{
+    background-color: rgb(152, 152, 240);
+    font-size: 65px;
+    font-family: "Bebas Neue", serif;
+    border-radius: 30px;
+    padding: 0 20px;
+   }
+
+   .nav-items > li > button:hover{
+    background-color: rgb(244, 127, 11);
+    color: rgb(250, 253, 253);
+    cursor: pointer;
+   }
+   /* Navbar Section */
+   nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+   }
+
+   /* hero section */
+   .hero{
+    text-align: center;
+    font-size: 150px;
+    margin: 102px 30;
+    font-family: "Roboto", serif;
+    line-height: 1 .2px;
+   }
+   .h2{
+    margin: 0;
+   }
+   .herp-des{
+    font-size: 5px;
+    margin: 50px 0;
+   }
