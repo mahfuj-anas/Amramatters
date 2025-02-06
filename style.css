@@ -59,9 +59,9 @@ cursor: pointer;
     font-size: 150px;
     margin: 102px 30;
     font-family: "Roboto", serif;
-    line-height: 1 .2px;
+    
    }
-   .h2{
+   h2{
     margin: 0;
    }
    .herp-des{
