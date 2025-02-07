@@ -64,7 +64,44 @@ cursor: pointer;
    h2{
     margin: 0;
    }
-   .herp-des{
-    font-size: 5px;
+   .hero-des{
+    font-size: 70px;
     margin: 50px 0;
+   }
+
+   /* trusted section */
+   .trusted{
+    margin: 100px 0;
+   }
+   .trusted > p{
+    text-align: center;
+    font-size: 60px;
+   }
+   .companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+    
+   }
+   .companies img{
+    width: 300px;
+    height: auto;
+   }
+
+   /* Gallery Section */
+   .Gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   }
+   .Gallery > img{
+    height: 2000px;
+    width: 4500px;
+    border: 1px chocolate solid;
+   border-radius: 30px;
+
    }
